@@ -1,55 +1,51 @@
 ✅ MFH Status validation completed. Rows checked: 32
-First Row order num is : 23106
-First Row order num is : 23106
-Starting Manual Review for order: 23106
+First Row order num is : 23558
+First Row order num is : 23558
+Starting Manual Review for order: 23558
 Dialog type: prompt
 Dialog message: Enter a note for manual review (optional):
 
 You can leave this blank and click OK, or click Cancel to proceed without a note.
 ✅ Accepted prompt with note: "(blank)"
 ✅ Clicked Manual Review button
-✅ Order 23106 marked for Manual Review
-Checking status for order: 23106
-✅ Order 23106 found in Manual Review (visible row)
+✅ Order 23558 marked for Manual Review
+Checking status for order: 23558
+✅ Order 23558 found in Manual Review (visible row)
 Total columns in row: 10
 Column 0: 
-Column 1: 23106
+Column 1: 23558
 Column 2: 
 Column 3: manualReview
-Column 4: Christian Arthur
+Column 4: Dylan Juan
 
 Email: malefromhome@gmail.com
 
 Phone: 901-501-6253
 
-Orem,UT
+Clyde,TX
 
-$0.00 USD (PAID)
+$139.99 USD (PAID)
 
-12/26/2025, 8:23:05 PM
-Column 5: 1 x MFHPPRK
+1/30/2026, 12:50:52 PM
+Column 5: 1 x MFHRK2
 
 Patient
 
-Christian Arthur
+Benjamin Juan
 
-04/15/1978
+12/10/1990
 
 Provider
 
-Cherrington, Steven (Premier Family Medical)
+McAuliff, Tim (Gentle Procedures Clinic Dallas)
 
 Vas Date
 
-09/07/2024
+10/15/2025
 
 Notify
 
-Email
-
-PrePaid KitID
-
-61004618
+Text
 Column 6: 
 Column 7: 
 Column 8: 
@@ -63,4 +59,4 @@ Actions column text:  ERROR
  CANCEL
 
  REVERT TO NEW
-✅ Actions column contains exactly the expected options for order 23106
+✅ Actions column contains exactly the expected options for order 23558
