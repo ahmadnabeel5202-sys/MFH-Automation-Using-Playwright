@@ -44,3 +44,37 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+
+      
+      # 🔹 Generate Allure report
+      - name: Generate Allure Report
+        if: always()
+        run: |
+          npm install -g allure-commandline
+          allure generate allure-results --clean -o allure-report
+
+      # 🔹 Publish Allure report to GitHub Pages
+      - name: Deploy Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-report
+
+      # 🔹 Slack Notification (must be inside steps!)
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        if: always()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: ahmadnabeel5202
+          SLACK_TITLE: "Playwright Test Run"
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_MESSAGE: |
+            Repository: ${{ github.repository }}
+            Branch: ${{ github.ref_name }}
+            Triggered by: ${{ github.actor }}
+            Status: ${{ job.status }}
+            Allure Report:
+            https://ahmadnabeel5202-sys.github.io//MFH-Automation-Using-Playwright       
