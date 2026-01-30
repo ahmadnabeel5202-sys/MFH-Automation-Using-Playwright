@@ -77,5 +77,5 @@ jobs:
             Branch: ${{ github.ref_name }}
             Triggered by: ${{ github.actor }}
             Status: ${{ job.status }}
-            Allure Report:
-            https://ahmadnabeel5202-sys.github.io//MFH-Automation-Using-Playwright       
+            Allure Report: https://ahmadnabeel5202-sys.github.io/MFH-Automation-Using-Playwright/  
+            # GitHub Actions: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
