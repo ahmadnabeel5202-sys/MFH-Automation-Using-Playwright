@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4","Test 1 - Verify user is on Kitspage","chromium","2026-01-30","skipped","2026-01-30","Test Suite with General Order Flow","","",""
-"","15059","New Orders Page","chromium","2026-01-30","passed","2026-01-30","Test Suite with General Order Flow","","",""
-"","47291","Orders tabs Visibility to User","chromium","2026-01-30","passed","2026-01-30","Test Suite with General Order Flow","","",""
+"","40941","Orders tabs Visibility to User","chromium","2026-01-30","passed","2026-01-30","Test Suite with General Order Flow","","",""
+"","17252","New Orders Page","chromium","2026-01-30","passed","2026-01-30","Test Suite with General Order Flow","","",""
+"","3","Test 1 - Verify user is on Kitspage","chromium","2026-01-30","skipped","2026-01-30","Test Suite with General Order Flow","","",""
