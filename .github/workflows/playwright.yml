@@ -63,6 +63,7 @@ jobs:
           publish_dir: allure-report
 
       # 🔹 Slack Notification (must be inside steps!)
+      # Notificarion will be sent on every run, regardless of success or failure
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         if: always()
