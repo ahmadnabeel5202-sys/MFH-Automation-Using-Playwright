@@ -69,7 +69,7 @@ jobs:
         if: always()
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_USERNAME: ahmadnabeel5202
+          SLACK_USERNAME: Nabeel Ahmad
           SLACK_TITLE: "Playwright Test Run"
           SLACK_COLOR: ${{ job.status }}
           SLACK_MESSAGE: |

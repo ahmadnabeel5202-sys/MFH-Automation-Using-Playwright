@@ -1,1 +1,1 @@
-[]
+[{"uid":"512a289759fbc7ca","name":"Test 1 - Verify user is on Kitspage","time":{"start":1769780543040,"stop":1769780543044,"duration":4},"status":"skipped","severity":"normal"},{"uid":"20a10045314d64eb","name":"Orders tabs Visibility to User","time":{"start":1769780543045,"stop":1769780593125,"duration":50080},"status":"passed","severity":"normal"},{"uid":"9fd98e7d934a45ad","name":"New Orders Page","time":{"start":1769780593320,"stop":1769780616976,"duration":23656},"status":"passed","severity":"normal"}]
