@@ -1,0 +1,62 @@
+✅ MFH Status validation completed. Rows checked: 31
+First Row order num is : 23559
+First Row order num is : 23559
+Starting Manual Review for order: 23559
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 23559 marked for Manual Review
+Checking status for order: 23559
+✅ Order 23559 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 23559
+Column 2: 
+Column 3: manualReview
+Column 4: Anthony Daniel
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+Detroit,MI
+
+$79.99 USD (PAID)
+
+1/30/2026, 1:23:51 PM
+Column 5: 1 x MFHRK
+
+Patient
+
+Anthony Daniel
+
+11/22/1981
+
+Provider
+
+O'Connor, Jeffrey (Comprehensive Urology)
+
+Vas Date
+
+01/08/2026
+
+Notify
+
+Text
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 23559
