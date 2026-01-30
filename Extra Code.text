@@ -1,0 +1,20 @@
+ // let page;
+  // let myLogin;
+
+  // test.beforeAll(async ({ browser }) => { // ✅ INSIDE the describe block
+  //     page = await browser.newPage();
+  //     myLogin = new loginpage(page);
+  //     await myLogin.performLogin(credentials.validUser.username, credentials.validUser.password);
+  // });
+
+  // test.beforeAll(async ({ browser }) => {
+  //     // ✅ Create a single page instance for all tests in this suite
+  //     page = await browser.newPage();
+  //     await page.goto('/#/kits');
+  //     await page.waitForLoadState('networkidle');
+  // });
+
+  // test.afterAll(async () => {
+  //     // Clean up the shared page after all tests complete
+  //     if (page) await page.close();
+  // });
