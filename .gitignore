@@ -1,0 +1,17 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+auth.json                   # ✅ NEVER commit - use GitHub Secrets instead
+.env                        # ✅ NEVER commit - use GitHub Secrets instead
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+
