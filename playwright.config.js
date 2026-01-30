@@ -24,29 +24,29 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-    reporter: [
-        ['list'],                                           
-        ['html', { outputFolder: 'playwright-report' }],   
-        ['allure-playwright', { 
-            outputFolder: 'allure-results',                
-            detail: true,
-            suiteTitle: false 
-        }],
-    ],
+  reporter: [
+    ['list'],   //  Console output during test run                                         
+    ['html', { outputFolder: 'playwright-report' }],
+    ['allure-playwright', {
+      outputFolder: 'allure-results',
+      detail: true,
+      suiteTitle: false
+    }],
+  ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: 'https://new-test-admin.malefromhome.com',
-    storageState: 'auth.json', 
+    storageState: 'auth.json',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    screenshot:'only-on-failure',
+    screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: false,            // needed to see the browser
-  launchOptions: {
-    slowMo: 1000,               // slow down actions so you can watch
-  },
+    headless: true,            // needed to see the browser
+    launchOptions: {
+      slowMo: 1000,               // slow down actions so you can watch
+    },
 
   },
 
@@ -56,7 +56,7 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-   
+
 
     // {
     //   name: 'firefox',

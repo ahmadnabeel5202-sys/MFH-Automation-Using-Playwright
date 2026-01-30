@@ -1,0 +1,66 @@
+✅ MFH Status validation completed. Rows checked: 37
+First Row order num is : 23556
+First Row order num is : 23556
+Starting Manual Review for order: 23556
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 23556 marked for Manual Review
+Checking status for order: 23556
+✅ Order 23556 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 23556
+Column 2: 
+Column 3: manualReview
+Column 4: Wayne Gary
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+Las Vegas,NV
+
+$0.00 USD (PAID)
+
+1/30/2026, 11:18:45 AM
+Column 5: 1 x MFHPPRK
+
+Patient
+
+Donald Johnny Billy Aaron
+
+08/14/1993
+
+Provider
+
+Hunter, Craig (Las Vegas Urology)
+
+Vas Date
+
+02/07/2025
+
+Notify
+
+Email
+
+PrePaid KitID
+
+61007967
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 23556
