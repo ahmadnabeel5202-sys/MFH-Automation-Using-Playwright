@@ -34,7 +34,7 @@ test.describe.serial('Test Suite with General Order Flow', () => {
 
   })
 
-  test('New Orders Page', async ({ page }) => {
+  test('New Orders Page Functionality', async ({ page }) => {
     newOrders = new NewOrders(page);
 
     await newOrders.gotokitsPage();
