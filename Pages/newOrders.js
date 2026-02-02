@@ -8,7 +8,7 @@ exports.NewOrders= class NewOrders {
     this.ordersMenu = page.locator('li').filter({ hasText: 'Orders' }).first();
     this.orderSearch = page.getByRole('textbox', { name: 'Search' });
     this.NewOrders = page.locator('a').filter({ hasText: 'New' }).first();
-    this.Assignkitsbtn= page.locator('p:has-text("ASSIGN KITS")').nth(0);//Assign kits for 1st kit
+    //this.Assignkitsbtn= page.locator('p:has-text("ASSIGN KITS")').nth(0);//Assign kits for 1st kit
     this.manualReviewbtn= page.locator('p:has-text("MANUAL REVIEW")').nth(0)//Manual Review -- for 1st kit
     this.Row1OrderNum =page.locator("//tbody/tr[1]/td[2]");
     this.columnsToggleBtn= page.getByRole('button', { name: 'Columns' });
@@ -36,7 +36,9 @@ exports.NewOrders= class NewOrders {
      async columnsToggleOptions(){
       await expect(this.columnsToggleBtn).toBeVisible();
       await this.columnsToggleBtn.click();
-
+      await this.page.waitForLoadState("domcontentloaded");
+      await expect(this.columnsMenu).toBeVisible();
+      
 
 
      }
@@ -68,7 +70,7 @@ exports.NewOrders= class NewOrders {
     async getFirstOrderNumber() {
     const orderNum = await this.Row1OrderNum.textContent();
     console.log(`First Row order num is : ${orderNum}`);
-    return orderNum?.trim(); // remove extra spaces
+    return orderNum?.trim(); // remove spaces
 
   }
 async markasManualReview(note = '') {
@@ -163,5 +165,7 @@ async checkOrderStatusinManualReview() {
   console.log(`✅ Actions column contains exactly the expected options for order ${orderNum}`);
 
 }
+
+
 
 };
