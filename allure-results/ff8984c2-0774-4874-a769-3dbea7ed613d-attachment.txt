@@ -1,5 +1,0 @@
-❌ Error processing order 21: locator.textContent: Timeout 5000ms exceeded.
-Call log:
-  - waiting for locator('tbody tr').nth(20).locator('td').nth(1)
-
-

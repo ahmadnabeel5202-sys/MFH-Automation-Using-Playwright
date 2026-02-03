@@ -7,6 +7,10 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
+# Allure
+/allure-results/
+/allure-report/
+
 auth.json                   # ✅ NEVER commit - use GitHub Secrets instead
 .env                        # ✅ NEVER commit - use GitHub Secrets instead
 .env.local
