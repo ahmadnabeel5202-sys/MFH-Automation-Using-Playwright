@@ -1,0 +1,197 @@
+✅ MFH Status validation completed. Rows checked: 24
+First Row order num is : 23592
+First Row order num is : 23592
+Starting Manual Review for order: 23592
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 23592 marked for Manual Review
+Checking status for order: 23592
+✅ Order 23592 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 23592
+Column 2: 
+Column 3: manualReview
+Column 4: Christopher Henry
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+Larkspur,CA
+
+$0.00 USD (PAID)
+
+2/3/2026, 9:53:14 AM
+Column 5: 1 x MFHPPRK
+
+Patient
+
+Christopher Henry
+
+07/01/1985
+
+Provider
+
+Assibey, Rob (Tri-Valley Vasectomy)
+
+Vas Date
+
+11/03/2025
+
+Notify
+
+Email
+
+PrePaid KitID
+
+61007274
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 23592
+🔍 Assign workflow: attempt 2 failures (have PrePaid KitID) + 2 successes (no PrePaid KitID)
+📊 Total orders found: 23
+==================================================
+Checking Order 1/23 - Order #23591
+==================================================
+🔁 Attempting assign for Order 23591 (no PrePaid KitID)
+🖱️ Clicked ASSIGN KITS for Order 23591
+🛎️ Toast: "Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order."
+❌ Assignment failed for Order 23591. Toast: Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order.
+==================================================
+Checking Order 2/23 - Order #23590
+==================================================
+🔁 Validating failure on PrePaid KitID order 23590
+🖱️ Clicked ASSIGN KITS (expected fail) for Order 23590
+🛎️ Toast: "Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order."
+❌ Failure validated for Order 23590
+Order failed = 1
+==================================================
+Checking Order 3/23 - Order #23054
+==================================================
+🔁 Validating failure on PrePaid KitID order 23054
+🖱️ Clicked ASSIGN KITS (expected fail) for Order 23054
+🛎️ Toast: "Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order."
+❌ Failure validated for Order 23054
+Order failed = 2
+==================================================
+Checking Order 4/23 - Order #22976
+==================================================
+⏭️ Skipping PrePaid KitID order 22976 (already validated 2 failures)
+==================================================
+Checking Order 5/23 - Order #22855
+==================================================
+⏭️ Skipping PrePaid KitID order 22855 (already validated 2 failures)
+==================================================
+Checking Order 6/23 - Order #22852
+==================================================
+⏭️ Skipping PrePaid KitID order 22852 (already validated 2 failures)
+==================================================
+Checking Order 7/23 - Order #22848
+==================================================
+⏭️ Skipping PrePaid KitID order 22848 (already validated 2 failures)
+==================================================
+Checking Order 8/23 - Order #22729
+==================================================
+⏭️ Skipping PrePaid KitID order 22729 (already validated 2 failures)
+==================================================
+Checking Order 9/23 - Order #22509
+==================================================
+⏭️ Skipping PrePaid KitID order 22509 (already validated 2 failures)
+==================================================
+Checking Order 10/23 - Order #22485
+==================================================
+⏭️ Skipping PrePaid KitID order 22485 (already validated 2 failures)
+==================================================
+Checking Order 11/23 - Order #22477
+==================================================
+⏭️ Skipping PrePaid KitID order 22477 (already validated 2 failures)
+==================================================
+Checking Order 12/23 - Order #22426
+==================================================
+⏭️ Skipping PrePaid KitID order 22426 (already validated 2 failures)
+==================================================
+Checking Order 13/23 - Order #22425
+==================================================
+⏭️ Skipping PrePaid KitID order 22425 (already validated 2 failures)
+==================================================
+Checking Order 14/23 - Order #22406
+==================================================
+⏭️ Skipping PrePaid KitID order 22406 (already validated 2 failures)
+==================================================
+Checking Order 15/23 - Order #22401
+==================================================
+⏭️ Skipping PrePaid KitID order 22401 (already validated 2 failures)
+==================================================
+Checking Order 16/23 - Order #22355
+==================================================
+⏭️ Skipping PrePaid KitID order 22355 (already validated 2 failures)
+==================================================
+Checking Order 17/23 - Order #22347
+==================================================
+⏭️ Skipping PrePaid KitID order 22347 (already validated 2 failures)
+==================================================
+Checking Order 18/23 - Order #22336
+==================================================
+⏭️ Skipping PrePaid KitID order 22336 (already validated 2 failures)
+==================================================
+Checking Order 19/23 - Order #22332
+==================================================
+⏭️ Skipping PrePaid KitID order 22332 (already validated 2 failures)
+==================================================
+Checking Order 20/23 - Order #22272
+==================================================
+⏭️ Skipping PrePaid KitID order 22272 (already validated 2 failures)
+==================================================
+Checking Order 21/23 - Order #22262
+==================================================
+⏭️ Skipping PrePaid KitID order 22262 (already validated 2 failures)
+==================================================
+Checking Order 22/23 - Order #22248
+==================================================
+⏭️ Skipping PrePaid KitID order 22248 (already validated 2 failures)
+==================================================
+Checking Order 23/23 - Order #22245
+==================================================
+⏭️ Skipping PrePaid KitID order 22245 (already validated 2 failures)
+
+============================================================
+📊 ASSIGNMENT SUMMARY
+============================================================
+✅ Kits Assigned (successful): 0
+❌ Failures detected:           2
+============================================================
+
+📋 Failed details:
+1. Order 23591 | row 0 | col5: 1 x MFHRKPatientThomas Eugene08/23/1982Provider*No Provider (Just notify me of the results)*Vas Date09/24/2022NotifyEmail | toast: Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order. 
+2. Order 23590 | row 1 | col5: 1 x MFHPPRKPatientRussell Adam Timothy11/22/1980ProviderSlade, Austen (Capital Surgical Associates)Vas Date10/31/2025NotifyEmailPrePaid KitID61007433 | toast: Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order. 
+3. Order 23054 | row 2 | col5: 1 x MFHPPRKPatientNicholas Kevin09/11/1995ProviderAll Providers, - (Planned Parenthood of Wisconsin)Vas Date09/02/2025NotifyEmailPrePaid KitID61006008 | toast: Kit Assignment Failed!
+
+Error: Expiration Date is required to assign kits to an order. 

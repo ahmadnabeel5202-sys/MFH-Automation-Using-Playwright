@@ -1,0 +1,66 @@
+✅ MFH Status validation completed. Rows checked: 20
+First Row order num is : 22976
+First Row order num is : 22976
+Starting Manual Review for order: 22976
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 22976 marked for Manual Review
+Checking status for order: 22976
+✅ Order 22976 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 22976
+Column 2: 
+Column 3: manualReview
+Column 4: Michael Alexander
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+jefferson city,MO
+
+$0.00 USD (PAID)
+
+12/15/2025, 6:09:26 AM
+Column 5: 0 x MFHPPRK
+
+Patient
+
+Michael Alexander
+
+04/03/1994
+
+Provider
+
+Au, Daniel M. (Missouri University)
+
+Vas Date
+
+10/03/2025
+
+Notify
+
+Text
+
+PrePaid KitID
+
+61006083
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 22976

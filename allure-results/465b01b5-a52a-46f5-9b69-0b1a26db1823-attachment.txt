@@ -1,0 +1,234 @@
+✅ MFH Status validation completed. Rows checked: 23
+First Row order num is : 23577
+First Row order num is : 23577
+Starting Manual Review for order: 23577
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 23577 marked for Manual Review
+Checking status for order: 23577
+✅ Order 23577 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 23577
+Column 2: 
+Column 3: manualReview
+Column 4: Donald Albert
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+Phoenix,AZ
+
+$0.00 USD (PAID)
+
+2/2/2026, 9:20:46 AM
+Column 5: 1 x MFHPPRK
+
+Patient
+
+Donald George Albert Henry
+
+05/26/1996
+
+Provider
+
+Tay, Howard (Arizona State Urology)
+
+Vas Date
+
+11/07/2025
+
+Notify
+
+Email
+
+PrePaid KitID
+
+61007557
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 23577
+🔍 Starting to assign kits to first TWO orders without PrePaid KitID...
+📌 Checking PrePaid KitID in Column 5 only
+
+📊 Total orders found: 22
+
+==================================================
+Checking Order 1/22 - Order #23571
+==================================================
+Row 0: ✅ PrePaid KitID found: 61006831
+⏭️  SKIPPING - Already has PrePaid KitID: 61006831
+
+==================================================
+Checking Order 2/22 - Order #23569
+==================================================
+Row 1: ❌ No valid PrePaid KitID found (raw: (none)).
+📋 Column-5 raw content for Order 23569: "1 x MFHRKPatientJose Adam07/10/1983Provider*No Provider (Just notify me of the results)*Vas Date02/13/2015NotifyEmail"
+🖱️  Clicked ASSIGN KITS for Order 23569
+🛎️ Toast detected: 📊 Summary:
+• Orders processed: 1
+• Orders successful: 1
+• Orders failed: 0
+• Kit operations: 1
+• Successful kit operations: 1
+• Failed kit operations: 0
+
+✅ Successful Kit Operations:
+• Kit 99000644 successfully created and associated with order 6423094198308
+✅ Kit assigned successfully for Order 23569 (1/2)
+
+==================================================
+Checking Order 3/22 - Order #22855
+==================================================
+Row 2: ✅ PrePaid KitID found: 61006670
+⏭️  SKIPPING - Already has PrePaid KitID: 61006670
+
+==================================================
+Checking Order 4/22 - Order #22852
+==================================================
+Row 3: ✅ PrePaid KitID found: 61006688
+⏭️  SKIPPING - Already has PrePaid KitID: 61006688
+
+==================================================
+Checking Order 5/22 - Order #22848
+==================================================
+Row 4: ✅ PrePaid KitID found: 61006651
+⏭️  SKIPPING - Already has PrePaid KitID: 61006651
+
+==================================================
+Checking Order 6/22 - Order #22783
+==================================================
+Row 5: ✅ PrePaid KitID found: 90005540
+⏭️  SKIPPING - Already has PrePaid KitID: 90005540
+
+==================================================
+Checking Order 7/22 - Order #22729
+==================================================
+Row 6: ✅ PrePaid KitID found: 61006692
+⏭️  SKIPPING - Already has PrePaid KitID: 61006692
+
+==================================================
+Checking Order 8/22 - Order #22509
+==================================================
+Row 7: ✅ PrePaid KitID found: 77019447
+⏭️  SKIPPING - Already has PrePaid KitID: 77019447
+
+==================================================
+Checking Order 9/22 - Order #22485
+==================================================
+Row 8: ✅ PrePaid KitID found: 77019141
+⏭️  SKIPPING - Already has PrePaid KitID: 77019141
+
+==================================================
+Checking Order 10/22 - Order #22477
+==================================================
+Row 9: ✅ PrePaid KitID found: 77019537
+⏭️  SKIPPING - Already has PrePaid KitID: 77019537
+
+==================================================
+Checking Order 11/22 - Order #22426
+==================================================
+Row 10: ✅ PrePaid KitID found: 61006069
+⏭️  SKIPPING - Already has PrePaid KitID: 61006069
+
+==================================================
+Checking Order 12/22 - Order #22425
+==================================================
+Row 11: ✅ PrePaid KitID found: 90005541
+⏭️  SKIPPING - Already has PrePaid KitID: 90005541
+
+==================================================
+Checking Order 13/22 - Order #22406
+==================================================
+Row 12: ✅ PrePaid KitID found: 90005543
+⏭️  SKIPPING - Already has PrePaid KitID: 90005543
+
+==================================================
+Checking Order 14/22 - Order #22401
+==================================================
+Row 13: ✅ PrePaid KitID found: 61006689
+⏭️  SKIPPING - Already has PrePaid KitID: 61006689
+
+==================================================
+Checking Order 15/22 - Order #22355
+==================================================
+Row 14: ✅ PrePaid KitID found: 61006686
+⏭️  SKIPPING - Already has PrePaid KitID: 61006686
+
+==================================================
+Checking Order 16/22 - Order #22347
+==================================================
+Row 15: ✅ PrePaid KitID found: 61005558
+⏭️  SKIPPING - Already has PrePaid KitID: 61005558
+
+==================================================
+Checking Order 17/22 - Order #22336
+==================================================
+Row 16: ✅ PrePaid KitID found: 61006654
+⏭️  SKIPPING - Already has PrePaid KitID: 61006654
+
+==================================================
+Checking Order 18/22 - Order #22332
+==================================================
+Row 17: ✅ PrePaid KitID found: 61006000
+⏭️  SKIPPING - Already has PrePaid KitID: 61006000
+
+==================================================
+Checking Order 19/22 - Order #22272
+==================================================
+Row 18: ✅ PrePaid KitID found: 61006191
+⏭️  SKIPPING - Already has PrePaid KitID: 61006191
+
+==================================================
+Checking Order 20/22 - Order #22262
+==================================================
+Row 19: ✅ PrePaid KitID found: 61006796
+⏭️  SKIPPING - Already has PrePaid KitID: 61006796
+
+==================================================
+Checking Order 21/22 - Order #22248
+==================================================
+Row 20: ✅ PrePaid KitID found: 61006299
+⏭️  SKIPPING - Already has PrePaid KitID: 61006299
+
+==================================================
+Checking Order 22/22 - Order #22245
+==================================================
+Row 21: ✅ PrePaid KitID found: 61007555
+⏭️  SKIPPING - Already has PrePaid KitID: 61007555
+
+
+============================================================
+📊 ASSIGNMENT SUMMARY
+============================================================
+✅ Kits Assigned:        1 out of 2 target
+📝 Total Orders Scanned: 22
+============================================================
+
+📋 Column-5 contents for assigned kits:
+1. Order 23569: 1 x MFHRKPatientJose Adam07/10/1983Provider*No Provider (Just notify me of the results)*Vas Date02/13/2015NotifyEmail  | Toast: 📊 Summary:
+• Orders processed: 1
+• Orders successful: 1
+• Orders failed: 0
+• Kit operations: 1
+• Successful kit operations: 1
+• Failed kit operations: 0
+
+✅ Successful Kit Operations:
+• Kit 99000644 successfully created and associated with order 6423094198308

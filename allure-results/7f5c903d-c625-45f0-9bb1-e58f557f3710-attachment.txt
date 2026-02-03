@@ -1,0 +1,95 @@
+✅ MFH Status validation completed. Rows checked: 29
+First Row order num is : 23569
+First Row order num is : 23569
+Starting Manual Review for order: 23569
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 23569 marked for Manual Review
+Checking status for order: 23569
+✅ Order 23569 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 23569
+Column 2: 
+Column 3: manualReview
+Column 4: Jose Adam
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+Albuquerque,NM
+
+$79.99 USD (PAID)
+
+2/1/2026, 11:26:34 AM
+Column 5: 1 x MFHRK
+
+Patient
+
+Jose Adam
+
+07/10/1983
+
+Provider
+
+*No Provider (Just notify me of the results)*
+
+Vas Date
+
+02/13/2015
+
+Notify
+
+Email
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 23569
+🔍 Starting to assign kits to first TWO orders without PrePaid KitID...
+📌 Checking PrePaid KitID in Column 6 only
+
+📊 Total orders found: 28
+
+==================================================
+Checking Order 1/28 - Order #22976
+==================================================
+Row 0: PrePaid KitID label not found
+✅ No PrePaid KitID found - Proceeding with assignment...
+🖱️  Clicked ASSIGN KITS button
+✅ Kit assigned successfully! (1/2 completed)
+
+==================================================
+Checking Order 2/28 - Order #22889
+==================================================
+Row 1: PrePaid KitID label not found
+✅ No PrePaid KitID found - Proceeding with assignment...
+🖱️  Clicked ASSIGN KITS button
+✅ Kit assigned successfully! (2/2 completed)
+
+
+🎯 Target reached: 2 kits assigned. Stopping.
+
+
+============================================================
+📊 ASSIGNMENT SUMMARY
+============================================================
+✅ Kits Assigned:        2 out of 2 target
+📝 Total Orders Scanned: 28
+🎯 Success Rate:         100%
+============================================================
+

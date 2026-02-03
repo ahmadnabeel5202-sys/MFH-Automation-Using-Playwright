@@ -44,8 +44,10 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     headless: true,            // needed to see the browser
+    // viewport: { width: 1920, height: 1080 },   // Full HD viewport
     launchOptions: {
-      slowMo: 1000,               // slow down actions so you can watch
+      // args: ['--start-maximized'],
+      slowMo: 2000,               // slow down actions so you can watch
     },
 
   },

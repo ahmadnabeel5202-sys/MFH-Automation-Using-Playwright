@@ -1,0 +1,32 @@
+❌ Error processing order 10: page.waitForTimeout: Target page, context or browser has been closed
+
+❌ Error processing order 11: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 12: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 13: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 14: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 15: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 16: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 17: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 18: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 19: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 20: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 21: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 22: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 23: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 24: locator.textContent: Target page, context or browser has been closed
+
+❌ Error processing order 25: locator.textContent: Target page, context or browser has been closed
+

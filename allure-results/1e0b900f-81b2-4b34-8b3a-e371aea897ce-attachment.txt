@@ -1,0 +1,12 @@
+✅ MFH Status validation completed. Rows checked: 29
+First Row order num is : 23556
+First Row order num is : 23556
+Starting Manual Review for order: 23556
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 23556 marked for Manual Review
+Checking status for order: 23556

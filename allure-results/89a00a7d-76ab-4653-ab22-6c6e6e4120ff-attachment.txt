@@ -1,0 +1,66 @@
+✅ MFH Status validation completed. Rows checked: 17
+First Row order num is : 22848
+First Row order num is : 22848
+Starting Manual Review for order: 22848
+Dialog type: prompt
+Dialog message: Enter a note for manual review (optional):
+
+You can leave this blank and click OK, or click Cancel to proceed without a note.
+✅ Accepted prompt with note: "(blank)"
+✅ Clicked Manual Review button
+✅ Order 22848 marked for Manual Review
+Checking status for order: 22848
+✅ Order 22848 found in Manual Review (visible row)
+Total columns in row: 10
+Column 0: 
+Column 1: 22848
+Column 2: 
+Column 3: manualReview
+Column 4: Eric Dennis
+
+Email: malefromhome@gmail.com
+
+Phone: 901-501-6253
+
+Middleton,WI
+
+$0.00 USD (PAID)
+
+12/4/2025, 1:06:08 AM
+Column 5: 1 x MFHPPRK
+
+Patient
+
+Eric Dennis
+
+04/21/1990
+
+Provider
+
+All Providers, - (Planned Parenthood of Wisconsin)
+
+Vas Date
+
+10/10/2025
+
+Notify
+
+Text
+
+PrePaid KitID
+
+61006651
+Column 6: 
+Column 7: 
+Column 8: 
+Column 9:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+Actions column text:  ERROR
+
+ CANCEL
+
+ REVERT TO NEW
+✅ Actions column contains exactly the expected options for order 22848
