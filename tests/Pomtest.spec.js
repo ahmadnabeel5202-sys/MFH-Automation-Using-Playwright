@@ -47,13 +47,10 @@ test.describe.serial('Test Suite with General Order Flow', () => {
     await newOrders.checkOrderStatusinManualReview();
     await newOrders.gotoNewOrders();
     await newOrders.getPrePaidKitID();
-    
-
-    // await newOrders.assignKitsToNewOrders();
-  const result = await newOrders.assignKitsToNewOrders();
+    await newOrders.assignKitsToNewOrders();
   });
 
-test('Validate Ready to Ship orders', async ({ page }) => {
+test('Validate Ready to Ship orders functionality', async ({ page }) => {
   const readyToShip = new readyToShipOrders(page);
   await readyToShip.gotokitsPage();
   await readyToShip.gotoReadyToShipOrders();
