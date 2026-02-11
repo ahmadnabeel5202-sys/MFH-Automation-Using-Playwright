@@ -1,1 +1,1 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[]}
+{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"Validate Out to Patient orders functionality","uid":"b3d83a1aaa955048","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"broken","time":{"start":1770817410787,"stop":1770817598582,"duration":187795},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":2,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]}]}
