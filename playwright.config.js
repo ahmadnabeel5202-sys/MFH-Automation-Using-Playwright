@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import path from 'path/win32';
 
 /**
  * Read environment variables from file.
@@ -38,17 +39,26 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: 'https://new-test-admin.malefromhome.com',
     storageState: 'auth.json',
+    acceptDownloads: true,  
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: true,            // needed to see the browser
-    // viewport: { width: 1920, height: 1080 },   // Full HD viewport
+    headless: true,   
+    browserName: 'chromium',         // needed to see the browser  +1 change
+     permissions: ['camera', 'microphone'],
     launchOptions: {
-      // args: ['--start-maximized'],
-      slowMo: 2000,               // slow down actions so you can watch
-    },
+    args: [
+        '--use-fake-ui-for-media-stream',
+        '--use-fake-device-for-media-stream',
+        `--use-file-for-fake-video-capture=${path.resolve(__dirname, 'tests/fixtures/sample.y4m')}`, // Auto accept
+    ],
+    // viewport: { width: 1920, height: 1080 },   // Full HD viewport
+    // launchOptions: {
+    //   // args: ['--start-maximized'],
+    //   slowMo: 2000,               // slow down actions so you can watch
+   },
 
   },
 
