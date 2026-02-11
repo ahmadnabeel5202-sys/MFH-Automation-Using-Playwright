@@ -1,0 +1,4 @@
+✅ Navigated to Ready to Ship orders
+
+🔍 Validating MFH Status: kitsAssignedReadyToShip
+
