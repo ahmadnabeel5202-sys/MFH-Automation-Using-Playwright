@@ -1,1 +1,1 @@
-[]
+[{"uid":"e29651bdfae6cba8","name":"Validate Out to Patient orders functionality","time":{"start":1770881521715,"stop":1770881568467,"duration":46752},"status":"passed","severity":"normal"},{"uid":"ca658448085e0491","name":"Orders tabs Visibility to User","time":{"start":1770881490779,"stop":1770881521174,"duration":30395},"status":"passed","severity":"normal"}]
