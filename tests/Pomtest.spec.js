@@ -24,19 +24,19 @@ test.describe.serial('Test Suite with General Order Flow', () => {
 
 //   });
 
-//   test('Orders tabs Visibility to User', async ({ page }) => {
+  test('Orders tabs Visibility to User', async ({ page }) => {
 
-//     orders = new Orders(page);
+    orders = new Orders(page);
 
-//     await orders.gotoKitsPage();
-//     await orders.openOrdersMenu();
-//     await orders.verifyOrdersTabsVisible();
-//     await orders.gotoAllorders();
-//     await orders.searchOrder();
-//     await orders.refreshOrdersFromShopify();
-//     await orders.verifyAllColumnsVisible();
+    await orders.gotoKitsPage();
+    await orders.openOrdersMenu();
+    await orders.verifyOrdersTabsVisible();
+    await orders.gotoAllorders();
+    await orders.searchOrder();
+    await orders.refreshOrdersFromShopify();
+    await orders.verifyAllColumnsVisible();
 
-//   })
+  })
 
 //   test('New Orders Page Functionality', async ({ page }) => {
 //     newOrders = new NewOrders(page);
@@ -74,7 +74,7 @@ test.describe.serial('Test Suite with General Order Flow', () => {
 
 // });
 //Kits>Out to Patient tests
-test('Validate Out to Patient orders functionality', async ({ page }) => {
+test.only('Validate Out to Patient orders functionality', async ({ page }) => {
   // const context = page.context();
 
   //   // Grant camera and microphone permissions

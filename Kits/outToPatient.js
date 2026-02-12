@@ -101,6 +101,8 @@ async clickRecordTestForFirstKit() {
     // await this.page.context().grantPermissions(['camera', 'microphone']);
 
     // Wait for table rows to load
+     await this.page.waitForLoadState('networkidle');
+     await this.page.waitForLoadState('domcontentloaded');
     await this.page.waitForSelector('tbody tr');
 
     const firstRow = this.page.locator('tbody tr').first();

@@ -9,6 +9,9 @@ dropdown-menu.png
 test-results/
 playwright-report/
 playwright/.cache/
+allure-results/
+allure-report/
+
 
 # Node
 node_modules/

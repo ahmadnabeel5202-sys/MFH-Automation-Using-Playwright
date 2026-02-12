@@ -52,7 +52,7 @@ export default defineConfig({
     args: [
         '--use-fake-ui-for-media-stream',
         '--use-fake-device-for-media-stream',
-        `--use-file-for-fake-video-capture=${path.resolve(__dirname, 'tests/fixtures/sample.y4m')}`, // Auto accept
+        // `--use-file-for-fake-video-capture=${path.resolve(__dirname, 'tests/fixtures/sample.y4m')}`, // Auto accept
     ],
     // viewport: { width: 1920, height: 1080 },   // Full HD viewport
     // launchOptions: {
