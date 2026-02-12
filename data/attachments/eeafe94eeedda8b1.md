@@ -1,0 +1,213 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - button "Skip to content" [ref=e6] [cursor=pointer]: Skip to content
+    - main [ref=e8]:
+      - generic [ref=e12]:
+        - menuitem "Orders" [ref=e14] [cursor=pointer]:
+          - img [ref=e16]
+          - paragraph [ref=e18]: Orders
+        - separator [ref=e19]
+        - generic [ref=e20]:
+          - menuitem "Kits" [ref=e21] [cursor=pointer]:
+            - img [ref=e23]
+            - paragraph [ref=e25]: Kits
+          - generic [ref=e29]:
+            - menuitem "All" [ref=e30] [cursor=pointer]:
+              - img [ref=e32]
+              - text: All
+            - menuitem "New" [ref=e34] [cursor=pointer]:
+              - img [ref=e36]
+              - text: New
+            - menuitem "Ready to Ship" [ref=e38] [cursor=pointer]:
+              - img [ref=e40]
+              - text: Ready to Ship
+            - menuitem "Unregistered Prepaid" [ref=e42] [cursor=pointer]:
+              - img [ref=e44]
+              - text: Unregistered Prepaid
+            - menuitem "Out to Patient" [ref=e46] [cursor=pointer]:
+              - img [ref=e48]
+              - text: Out to Patient
+            - menuitem "Shipped by Patient" [ref=e50] [cursor=pointer]:
+              - img [ref=e52]
+              - text: Shipped by Patient
+            - menuitem "Delivered to Lab" [ref=e54] [cursor=pointer]:
+              - img [ref=e56]
+              - text: Delivered to Lab
+            - menuitem "Pending Confirmation" [ref=e58] [cursor=pointer]:
+              - img [ref=e60]
+              - text: Pending Confirmation
+            - menuitem "Test Complete" [ref=e62] [cursor=pointer]:
+              - img [ref=e64]
+              - text: Test Complete
+            - menuitem "Notify Complete" [ref=e66] [cursor=pointer]:
+              - img [ref=e68]
+              - text: Notify Complete
+            - menuitem "Error" [ref=e70] [cursor=pointer]:
+              - img [ref=e72]
+              - text: Error
+            - menuitem "Manual Review" [ref=e74] [cursor=pointer]:
+              - img [ref=e76]
+              - text: Manual Review
+        - separator [ref=e78]
+        - menuitem "Providers" [ref=e80] [cursor=pointer]:
+          - img [ref=e82]
+          - paragraph [ref=e84]: Providers
+        - separator [ref=e85]
+        - menuitem "Notifications" [ref=e87] [cursor=pointer]:
+          - img [ref=e89]
+          - paragraph [ref=e91]: Notifications
+        - separator [ref=e92]
+        - menuitem "Requisitions Due" [ref=e94] [cursor=pointer]:
+          - img [ref=e96]
+          - paragraph [ref=e98]: Requisitions Due
+        - separator [ref=e99]
+        - menuitem "Provider Access" [ref=e101] [cursor=pointer]:
+          - img [ref=e103]
+          - paragraph [ref=e105]: Provider Access
+      - generic [ref=e106]:
+        - generic [ref=e107]: test version
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - heading "KitId 99000625 - Record Test" [level=4] [ref=e110]
+            - button " Back to Kits" [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]: 
+              - text: Back to Kits
+          - separator [ref=e114]
+          - generic [ref=e116]:
+            - generic [ref=e119]:
+              - 'heading "Name: Nicholas Larry" [level=6] [ref=e122]':
+                - strong [ref=e123]: "Name:"
+                - text: Nicholas Larry
+              - 'heading "Date of Birth: 01-02-1991" [level=6] [ref=e126]':
+                - strong [ref=e127]: "Date of Birth:"
+                - text: 01-02-1991
+              - 'heading "Date of Vasectomy: 18-09-2025" [level=6] [ref=e130]':
+                - strong [ref=e131]: "Date of Vasectomy:"
+                - text: 18-09-2025
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: Collection Date
+                - generic [ref=e137]:
+                  - textbox [ref=e138]
+                  - group
+              - heading "0.0 weeks since vasectomy" [level=6] [ref=e140]:
+                - strong [ref=e141]: "0.0"
+                - text: weeks since vasectomy
+            - generic [ref=e143]:
+              - generic [ref=e144]: Test Result
+              - radiogroup [ref=e145]:
+                - generic [ref=e146] [cursor=pointer]:
+                  - generic [ref=e147]:
+                    - radio "NSS" [ref=e148]
+                    - img [ref=e150]
+                  - generic [ref=e152]: NSS
+                - generic [ref=e153] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - radio "Positive" [checked] [ref=e155]
+                    - generic [ref=e156]:
+                      - img [ref=e157]
+                      - img [ref=e159]
+                  - generic [ref=e161]: Positive
+                - generic [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163]:
+                    - radio "Error" [ref=e164]
+                    - img [ref=e166]
+                  - generic [ref=e168]: Error
+              - paragraph
+            - generic [ref=e170]:
+              - generic [ref=e171]: Test Sample Grade
+              - generic [ref=e172]:
+                - combobox "HIGH (10+/hpf)" [ref=e173] [cursor=pointer]
+                - textbox: HIGH
+                - img
+                - group
+              - paragraph
+            - generic [ref=e174]:
+              - text: Advice Code
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - combobox "acRetest8Week" [ref=e177] [cursor=pointer]
+                  - textbox: acRetest8Week
+                  - img
+                  - group
+                - paragraph
+            - generic [ref=e178]:
+              - text: Notes (MFH Only)
+              - button "" [ref=e180] [cursor=pointer]:
+                - generic:
+                  - paragraph
+                - generic [ref=e182]: 
+            - generic [ref=e183]:
+              - text: Provider Notes
+              - button "" [ref=e185] [cursor=pointer]:
+                - generic:
+                  - paragraph
+                - generic [ref=e187]: 
+            - paragraph [ref=e190]:
+              - strong [ref=e191]: acRetest8Week
+              - text: "-"
+              - emphasis [ref=e192]: RARE, MODERATE, or HIGH and < 8 weeks since DoV
+              - text: RARE/MODERATE/HIGH sperm seen in sample, less than 8 weeks since vasectomy. Recommend to retest after at least another 8 weeks and 20 ejaculations. Clearance of sperm after vasectomy can take multiple months.
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - heading "Image Capture" [level=6] [ref=e196]
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - generic: Select Camera
+                  - generic [ref=e203]:
+                    - combobox [ref=e204] [cursor=pointer]
+                    - textbox
+                    - img
+                - button "Capture Image " [disabled]:
+                  - text: Capture Image
+                  - generic: 
+                - paragraph
+            - generic [ref=e205]:
+              - heading "Captured Images (5/20)" [level=6] [ref=e206]
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - checkbox "Patient ID Card" [ref=e212] [cursor=pointer]
+                      - generic [ref=e213] [cursor=pointer]: Patient ID Card
+                    - generic "Delete image" [ref=e214] [cursor=pointer]: 
+                  - img "result" [ref=e215] [cursor=pointer]
+                - generic [ref=e216]:
+                  - generic [ref=e217]:
+                    - generic [ref=e218]:
+                      - checkbox "Patient ID Card" [ref=e219] [cursor=pointer]
+                      - generic [ref=e220] [cursor=pointer]: Patient ID Card
+                    - generic "Delete image" [ref=e221] [cursor=pointer]: 
+                  - img "result" [ref=e222] [cursor=pointer]
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]:
+                      - checkbox "Patient ID Card" [ref=e226] [cursor=pointer]
+                      - generic [ref=e227] [cursor=pointer]: Patient ID Card
+                    - generic "Delete image" [ref=e228] [cursor=pointer]: 
+                  - img "result" [ref=e229] [cursor=pointer]
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]:
+                      - checkbox "Patient ID Card" [ref=e233] [cursor=pointer]
+                      - generic [ref=e234] [cursor=pointer]: Patient ID Card
+                    - generic "Delete image" [ref=e235] [cursor=pointer]: 
+                  - img "result" [ref=e236] [cursor=pointer]
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]:
+                      - checkbox "Patient ID Card" [ref=e240] [cursor=pointer]
+                      - generic [ref=e241] [cursor=pointer]: Patient ID Card
+                    - generic "Delete image" [ref=e242] [cursor=pointer]: 
+                  - img "result" [ref=e243] [cursor=pointer]
+          - generic [ref=e244]:
+            - button " Save Test Record" [ref=e245] [cursor=pointer]:
+              - generic [ref=e247]: 
+              - text: Save Test Record
+            - button "Cancel" [ref=e248] [cursor=pointer]: Cancel
+  - alert [ref=e249]:
+    - generic [ref=e250]: Phone "901-501-6253" is not whitelisted for dev environment
+```
