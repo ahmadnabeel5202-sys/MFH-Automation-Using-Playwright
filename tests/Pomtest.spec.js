@@ -74,7 +74,7 @@ test.describe.serial('Test Suite with General Order Flow', () => {
 
 // });
 //Kits>Out to Patient tests
-test.only('Validate Out to Patient orders functionality', async ({ page }) => {
+test('Validate Out to Patient orders functionality', async ({ page }) => {
   // const context = page.context();
 
   //   // Grant camera and microphone permissions
