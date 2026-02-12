@@ -19,3 +19,9 @@ package-lock.json
 
 # Environment
 .env
+
+# Sensitive / Auth Files
+# -----------------------------
+auth.json
+credentials.js
+utils/
