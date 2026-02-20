@@ -23,5 +23,4 @@ package-lock.json
 # Sensitive / Auth Files
 # -----------------------------
 auth.json
-credentials.js
-Utils/
+
