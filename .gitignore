@@ -24,4 +24,4 @@ package-lock.json
 # -----------------------------
 auth.json
 credentials.js
-utils/
+Utils/
