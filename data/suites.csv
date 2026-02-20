@@ -1,3 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","35980","Orders tabs Visibility to User","chromium","2026-02-12","passed","2026-02-12","Test Suite with General Order Flow","","",""
-"","69585","Validate Out to Patient orders functionality","chromium","2026-02-12","failed","2026-02-12","Test Suite with General Order Flow","","",""
